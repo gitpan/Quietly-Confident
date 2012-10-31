@@ -1,0 +1,7 @@
+Makefile.PL
+MANIFEST
+qc
+qc.pod
+README.md
+README
+META.yml                                 Module meta-data (added by MakeMaker)
