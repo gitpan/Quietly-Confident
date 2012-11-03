@@ -36,9 +36,9 @@ Download the source:
 
 or:
 
-	$ wget http://search.cpan.org/CPAN/authors/id/T/TL/TLINDEN/Quietly-Confident-0.04.tar.gz
-	$ tar xfz Quietly-Confident-0.04.tar.gz
-	$ cd Quietly-Confident-0.04
+	$ wget http://search.cpan.org/CPAN/authors/id/T/TL/TLINDEN/Quietly-Confident-0.05.tar.gz
+	$ tar xfz Quietly-Confident-0.05.tar.gz
+	$ cd Quietly-Confident-0.05
 
 Install it:
 
@@ -181,6 +181,8 @@ the terminal and run in the background. It will then watch the git repository
 regularly for any changes. If something happens, it will re-generate
 the static site. Just point some webserver, lighty or apache or whatever
 else you have at hands, to the *public_html/* directory and that's it.
+If the source directory is not a git repository it looks for filesystem
+changes.
 
 The daemon mode maintains a pidfile in the working directory, usually
 named *qc.pid* (can be changed in config file). You can also specify
@@ -189,6 +191,11 @@ required if you want to run it from a system startup script. An example
 startup script fro FreeBSD is contained in the source directory. If
 you're using some other non-*BSD unix-mimicking OS, you've got to
 write your own startup script. sorry.
+
+You might also run the the daemon mode in the foreground without
+detaching for troubleshooting purposes. For this execute:
+
+	$ qc watch
 
 # What kind of weird name is this for a static site generator?
 
@@ -214,7 +221,7 @@ wikipedia page: [GSV Sleeper Service](http://en.wikipedia.org/wiki/GSV_Sleeper_S
 
 # Bugs and issues
 
-One might assume that the version number **0.04** suggests that
+One might assume that the version number **0.05** suggests that
 the tool is in a quite early stage. Well, that's right. Just file
 an issue at Github if you find a bug or think it doesn't behave
 as predicted. Patches are most welcome though.
