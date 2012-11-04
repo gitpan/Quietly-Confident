@@ -25,4 +25,4 @@ requires:
   Sub::Quote: 0
   Template: 0
   Text::Markdown: 0
-version: 0.05
+version: 0.06

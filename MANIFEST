@@ -4,5 +4,6 @@ qc
 qc.pod
 README.md
 README
+rc.d/qc.sh
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)
