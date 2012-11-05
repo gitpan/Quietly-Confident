@@ -25,4 +25,5 @@ requires:
   Sub::Quote: 0
   Template: 0
   Text::Markdown: 0
-version: 0.06
+  URI::Encode: 0
+version: 0.07

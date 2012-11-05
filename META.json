@@ -38,10 +38,11 @@
             "Moo" : 0,
             "Sub::Quote" : 0,
             "Template" : 0,
-            "Text::Markdown" : 0
+            "Text::Markdown" : 0,
+            "URI::Encode" : 0
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.06"
+   "version" : "0.07"
 }
